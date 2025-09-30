@@ -1,8 +1,8 @@
 class Pgutil < Formula
     desc "CLI for performaing actinos with ProGet"
     homepage "https://inedo.com"
-    url "https://github.com/Inedo/pgutil/releases/download/v#{version}/pgutil-osx-arm64.zip"
-    version "2.1.13"
+    url "https://github.com/Inedo/pgutil/releases/download/v{version}/pgutil-osx-arm64.zip"
+    version "2.1.13.1"
     sha256 "9a830eaf3cd079dedd262b25e13949281c910d5475ed267f0765cb15b5b0daf0"
     license "MIT"
   
