@@ -7,7 +7,7 @@ class Pgutil < Formula
 
   depends_on arch: :arm64
 
-def install
+  def install
     bin.install "pgutil"
   end
 
@@ -15,4 +15,3 @@ def install
     assert_match "Usage", shell_output("#{bin}/pgutil --help", 255)
   end
 end
-  
