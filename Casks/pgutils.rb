@@ -1,4 +1,5 @@
-class Pgutil < Formula
+cask Pgutil do
+  arch arm: "arm64"
   desc "CLI for performing actions with ProGet"
   homepage "https://inedo.com"
   url "https://github.com/Inedo/pgutil/releases/download/v2.1.13.1/pgutil-osx-arm64.zip"
@@ -9,7 +10,6 @@ class Pgutil < Formula
     url :stable
   end
 
-  depends_on arch: :arm64
 
   def install
     bin.install "pgutil"
