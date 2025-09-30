@@ -4,8 +4,8 @@ class Pgutil < Formula
     url "https://github.com/Inedo/pgutil/releases/download/v2.1.13.1/pgutil-osx-arm64.zip"
     sha256 "9a830eaf3cd079dedd262b25e13949281c910d5475ed267f0765cb15b5b0daf0"
     license "MIT"
-  
-  
+    depends_on arch: :arm64
+    
     def install
       bin.install "pgutil"
     end
