@@ -11,8 +11,5 @@ cask "pgutils" do
 
   binary "pgutil"
 
-  livecheck do
-    url :url
-    strategy :github_latest
   end
 end
