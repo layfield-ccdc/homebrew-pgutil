@@ -7,7 +7,6 @@ class Pgutil < Formula
 
   livecheck do
     url :stable
-    strategy :github_latest
   end
 
   depends_on arch: :arm64
