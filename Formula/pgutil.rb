@@ -12,7 +12,7 @@ def install
   end
 
   test do
-    assert_match "Usage", shell_output("#{bin}/pgutil --help")
+    assert_match "Usage", shell_output("#{bin}/pgutil --help", 255)
   end
 end
   
